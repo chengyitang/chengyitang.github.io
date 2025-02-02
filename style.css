@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    background-color: black;
+    color: #999;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.title {
+    color: white;
+    margin: 40px 0;
+    font-size: 1.2em;
+}
+
+.separator {
+    border-top: 1px solid #333;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.nav-links a {
+    color: #999;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+.education,
+.work,
+.contact,
+.projects {
+    margin: 20px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.section-title {
+    color: white;
+    margin: 20px 0;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
