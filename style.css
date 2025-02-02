@@ -28,6 +28,12 @@ body {
     font-size: 1.2em;
 }
 
+.resume-link {
+    display: inline-block;
+    color: #ffb700;
+    text-decoration: none;
+}
+
 .separator {
     border-top: 1px solid #333;
     width: 100%;
@@ -54,6 +60,7 @@ body {
 .education,
 .work,
 .contact,
+.workingon,
 .projects {
     margin: 20px 0;
     text-align: left;
