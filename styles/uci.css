@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: #999;
+    font-family: monospace;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+}
+
+h1 {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+hr {
+    width: 100%;
+}
+
+.courses {
+    margin-bottom: 40px;
+}
+
+.semester-title {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.course {
+    margin: 20px 0;
+    text-align: left;
+    width: 100%;
+    line-height: 1.8;
+}
+
+.course-code {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 255, 21);
+}

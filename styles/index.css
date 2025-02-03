@@ -23,14 +23,14 @@ body {
 }
 
 .title {
-    color: white;
+    color: #999;
     margin: 40px 0;
     font-size: 1.2em;
 }
 
 .resume-link {
     display: inline-block;
-    color: #ffb700;
+    color: rgb(0, 255, 21);
     text-decoration: none;
 }
 
@@ -88,5 +88,5 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: rgb(0, 255, 21);
 }
