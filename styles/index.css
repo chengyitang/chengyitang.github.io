@@ -19,7 +19,7 @@ body {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .title {
@@ -30,7 +30,7 @@ body {
 
 .resume-link {
     display: inline-block;
-    color: rgb(0, 255, 21);
+    color: #999;
     text-decoration: none;
 }
 
